@@ -1,0 +1,49 @@
+name: imc_calculator
+description: "Aplicativo para calculo de ImC"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  flutter_launcher_icons: ^0.14.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icons/icon_512.png"
+  image_path_ios: "assets/icons/icon_512.png"
+  adaptive_icon_foreground_inset: 16
+  adaptive_icon_background: "assets/icons/icon_512.png"
+  adaptive_icon_foreground: "assets/icons/icon_512.png"
+  remove_alpha_ios: true
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  
