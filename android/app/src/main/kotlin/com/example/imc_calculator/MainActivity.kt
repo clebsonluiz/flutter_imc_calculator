@@ -1,4 +1,4 @@
-package com.example.imc_calculator
+package dev.cleb.imc_calculator
 
 import io.flutter.embedding.android.FlutterActivity
 
